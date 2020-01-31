@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='ja'>
+  <head>
+    <meta charset="UTF-8">
+    <title>方言 change</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>テキストを変換</h1>
+    </header>
+    <main>
+        <div class="content">
+          <div class="content__wrap">
+              <textarea name="q" id="textOut" cols="30" rows="5"></textarea>
+              <button id="mIcon" onclick=speech()><i class="fas fa-volume-up"></i></button>
+              <img id="chara01" class="motion" src="img/hukuoka_ smile.png" alt="">
+              <img id="chara02" src="img/yamanashi_smile.png" alt="">
+          </div>
+          <div class="content__text">
+            <input id="defaultText" type="text" name="t" value="" placeholder="テキストを入力してください">
+          </div>
+          <div class="content__btn">
+              <input type="button" value="福岡弁" onclick="">
+              <input type="button" value="甲州弁" onclick="">
+          </div>
+        </div>
+        <div class="content__select">
+          <ul id="select">
+            <li><p>おはようございます</p></li>
+            <li><p>いくらですか</p></li>
+            <li><p>さようなら</p></li>
+            <li><p>ありがとう</p></li>
+            <li><p>いま何時ですか</p></li>
+            <li><p>ごめんなさい</p></li>
+            <li><p>すみません</p></li>
+            <li><p>元気にしてた</p></li>
+            <li><p>そうみたいだね</p></li>
+            <li><p>ちょっと待って</p></li>
+            <li><p>真面目にやって</p></li>
+            <li><p>どうして</p></li>
+            <li><p>どういう意味</p></li>
+          </ul>
+          
+        </div>
+    </main>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+
+</html>
